@@ -1,0 +1,413 @@
+body, html, header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ nav{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    margin-right: 0;
+    background-size: cover;
+    width: 100%;
+ } 
+
+ .fieldset_nav{
+    display: flex;
+     width: 100%;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 2px solid black;
+     margin-top: 40px;
+     margin-right: 100px;
+ }
+
+.home_picture{
+    margin: 0;
+    
+ }
+
+ .title_rectangle{
+     background-image: url(home_picture.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 150px;
+     height: 1400px;
+     margin-top: 101px; 
+}
+
+ header{
+     margin-top: 50px;
+ }
+ .logo-entreprise{
+     margin-left: 350px;
+     padding-top: 0;
+     padding-bottom: 10px;
+     
+ }
+ .depannage{
+     color: #3777BC;
+     font-size: 50px;
+     text-decoration: underline;
+ }
+ .menu{
+     text-align: center;
+     font-size: 25px;
+     text-decoration: none;
+     margin-left: 700px;
+     margin-top: 40px;
+ }
+ a{
+     padding-left: 100px;
+     text-decoration: none;
+     color: black;
+     margin: 0;
+ }
+
+a:hover{
+    color: #FB291F;
+}
+ .div_MI{
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 464px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    width: 972px;
+    height: 150px;
+    opacity: 47%;
+    font-size: 62px;
+}
+span{
+color: #FB291F;
+}
+.main{
+    display: flex;
+    margin-left: 500px;
+    padding: 20px;
+}
+
+
+.our_services{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.parc_informatique{
+    background-color: #1565D4;
+    
+}
+  
+ .pc_repair_bloc{
+    color: white;
+   margin: 0;
+    height: 30px;
+    padding-left: 55px;
+    margin-top: 5px;
+}
+
+.conseils{
+    background-color: white;
+
+}
+
+#bloc1_services{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+#bloc2_services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.depannage_PME{
+    margin-left: 80px;
+    margin-right: 425px;
+    padding-left: 200px;
+    font-size: 25px;
+    padding-top: 50px;   
+}
+.conseils_info{
+    margin-left: 148px;
+
+}
+#bloc3_services{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-left: 255px;
+    margin-right: 155px;
+}
+#bloc4_services{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.installation{
+    font-size: 30px;
+}
+.temoin{
+    text-align: center;
+    font-size: 5Opx
+    ;
+}
+.Témoignages{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 154px;
+    padding-right: 154px;
+    margin-top: 80px;
+}
+#parole_temoin{
+    height: 904px;
+    margin-top: 80px;
+}
+.Témoignages1{
+    background-color: #D6E6DA;
+    width: 393px;
+    height: 315px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+.bon{
+    display: flex;
+}
+
+.homme_heureux{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 70px;
+    padding: auto;
+}
+.Témoignages1_DG{
+    margin-left: 25px;
+}
+.Témoignages11_DG{
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.button_see_more{
+    margin-left: 1020px;
+    margin-top: 65px;
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.button_see_more:hover{
+    background-color: green;
+}
+.Voir_plus{
+    padding-top: 6px;
+    padding-left: 32px;
+}
+
+.contact_us{
+    margin-top: 300px;
+    background-image: url(image_fond_bleu.png);
+    width: 100%;
+    height: 704px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    margin-left: 570px;
+    padding-top: 50px;
+    display: flex;
+}
+.contact1{
+    margin-left: 1020px;
+    padding-top: 50px;
+    
+}
+.télephone{
+    display: flex;
+}
+.formulaire{
+    margin-left: 500px;
+    margin-top: 60px;
+    width: 400px;
+}
+
+.ligne_name_prenom{
+    display: flex;
+}
+input{
+    font-size: 16px;
+    margin-top: 25px;
+    padding-left: 0;
+    border: none;
+    outline: none;
+    background:none;
+    border-bottom: 1px solid black;
+}
+.last_input{
+    width: 430px;
+}
+
+.nom{
+    width: 70px;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+}
+form{
+    border: none;
+}
+.maintenance_MI{
+     background-color: white;
+     width: 300px;
+     height: 400px;
+     margin-left: 20px;
+     border-radius: 20px;
+     padding-left: 20px;
+     padding-top: 20px;
+     font-size: 20px;
+}
+#parteners{
+     display:flex;
+     height: 200px;
+     margin-top: 100px;
+     justify-content: space-between;
+     margin-left: 100px;
+     margin-right: 100px;
+ }
+ #parteners_logo{
+     margin-top: 80px;
+     padding-left: 500px;
+     padding-right: 500px;
+ }
+ .title_parteners{
+     text-align: center;
+ }
+ footer{
+     background-color: black;
+     width: 100%;
+     height: 370px;
+ }
+ #foot{
+     display: flex;
+     /*width: 1000px;*/
+ }
+
+ .foot_logos{
+     display: flex;
+ }
+ #our_media{
+     display: flex;
+     color: white;
+     /*padding-top: 60px;*/
+ }
+
+ .our_media_logo1{
+     margin-left: 400px;
+ }
+
+ .our_media_logo2{
+    margin-left: 140px;
+ }
+
+ .our_media_logo3{
+    margin-left: 140px;
+    margin-top: 40px;
+ }
+
+ .copyright_2022{
+     display: flex;
+     
+ }
+ #Maintenance_Info_2022 p{
+     margin-top: 40px;
+ }
+
+ #media{
+     display: flex;
+     margin-top: 70px;
+     width: 822px;
+ }
+
+ .logos{
+     margin-right: 30px;
+ }
+
+ #copyright{
+     background-color: #C4C4C4;
+     width: 60px;
+     height: 50px;
+     margin-top: 250px;
+     /*margin-right: 1000px;*/
+     display: flex
+}
+
+.Logo_copyrith{
+    margin-top: 4px;
+}
+.line{
+     color: #FFFFFF;
+     position: relative;
+     /*right: 280px;*/
+     left: 145px;
+     margin-top: 0;
+     margin-bottom: 0;
+     height: 370px;
+ }
+ .conseil-informatique-picto2{
+     padding-left: 217px;
+     margin-top: 160px;
+     margin-right: 235px;
+ } 
+.depannage{
+    font-size: 35px;
+}
+
+.parole_temoin{
+    margin-left: 127px;
+    margin-right: 127px;
+}
+
+#other_contact{
+    color: white;
+    margin-left: 1500px;
+    font-size: 25px;
+}
+.first_line_other_contact{
+    width: 800px;
+    margin-top: 70px;
+}
+
+.reseaux_sociaux{
+    width: 100px;
+}
+
+iframe{
+    margin-top: 100px;
+}
+
+.button{
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+}
